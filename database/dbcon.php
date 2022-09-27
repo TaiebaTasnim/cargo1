@@ -1,9 +1,9 @@
 <?php
 
-$host ="localhost";
-$username ="root";
-$password ="";
-$database ="cargo_db";
+$host ="sql300.epizy.com";
+$username =	"epiz_32676653";
+$password ="7pKH1Q0vTnxxQ";
+$database ="epiz_32676653_database";
 
 $con = mysqli_connect("$host","$username","$password","$database");
 
