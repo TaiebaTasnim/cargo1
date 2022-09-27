@@ -46,34 +46,26 @@
               </p>
             </a>
           </div>
+          <div>
+          <a href="admin-member.php" class="nav-link nav-edit_staff">
+              <i class="nav-icon  fa fa-cog"></i>
+              <p>
+                Admin member
+                
+              </p>
+            </a>
+          </div>
           
           <div>
-            <li class="nav-item">
-             <a href="#" class="nav-link nav-edit_branch">
-              <i class="fas fa-expand-arrows-alt"></i>
-              <p>
-                Administrator
-                <i class="right fas fa-angle-left"></i>
-              </p>
-             </a> 
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="admin-member.php" class="nav-link nav-new_branch tree-item">
-                  <i class="fa fa-cog"></i>
-                  <p>Admin member</p>
-                </a>
-              </li>
-              <li class="nav-item">
-              <form action="branch_code.php" method="POST">
+          <form action="branch_code.php" method="POST">
                 <button type="submit" name="logout_btn" class="nav-link nav-new_branch tree-item btn-dark btn-sm text-white">log out
                   <i class="fa fa-power-off"></i>
                   
                 </button>
-              </li>
-             </form>
-            </ul>
-           </li>
-           </div>
+          </form>
+          </div>
+          
+          
           
           
           
